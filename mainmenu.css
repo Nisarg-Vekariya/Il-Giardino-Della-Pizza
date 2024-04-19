@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #7C7C7C;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #A8763E;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: .5rem;
+    z-index: 1;
+}
+
+nav {
+    padding: 1.5rem;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+.title {
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #A8763E;
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+}
+
+ul li a:hover {
+    color: #A8763E;
+    transition: 1.2s;
+
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    width: 114.809px;
+    border-radius: 20px;
+    border: 3px solid #A8763E;
+    height: 38.333px;
+    background: #FFF;
+    justify-content: center;
+}
+
+.login a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #000;
+}
+
+.login:hover {
+    background-color: #A8763E;
+    transition: 1.2s;
+}
+
+/* Navbar */
+
+main .background {
+    background: url(Image/our\ menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .ourmenu {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 2px 0 0#000, 0 2px 0#000, -2px 0 0#000, 0-2px 0#000;
+}
+
+main .ourmenu span {
+    color: #A8763E;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main #menu-navbar {
+    background: rgba(168, 118, 62, 0.50);
+    width: 950px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+main #menu-navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main #menu-navbar ul li {
+    margin-top: 3.2vh;
+}
+
+main #menu-navbar ul li a {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main #menu-navbar ul li a:hover {
+    color: #A8763E;
+    transition: 1.3s;
+}
+
+/* menu navbar */
+
+main .menu {
+    margin: 4vh 4vw;
+}
+
+main .menu .frame {
+    /* width: 26vw;
+    height: 70vh; */
+    width: 400px;
+    height: 500px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 4px #A8763E;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 7vh 0;
+}
+
+main .menu .name-of-item {
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather Sans";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main .menu .dep-item {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .menu .price {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .menu .btn-add-cart button {
+    width: 250px;
+    height: 40px;
+    color: #A8763E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+main .menu .btn-add-cart button:hover {
+    background-color: #A8763E;
+    border: none;
+    color: #FFF;
+    box-shadow: 2px 2px 2px 2px #7C7C7C;
+    transition: 1.3s;
+    transition-timing-function: ease-in-out;
+}
+
+main .menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+/* footer */
+
+footer {
+    background: #D9D9D9;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo img {
+    width: 173px;
+    height: 176px;
+    position: relative;
+    object-fit: cover;
+    padding: 1rem;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.vl {
+    border-left: 2px solid black;
+}
+
+.footer-list {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#Socialicon li {
+    margin-top: 1rem;
+    display: inline-block;
+
+}
+
+.footer-list li {
+    margin-top: 5px
+}
+
+.title-footer {
+    color: #000;
+    text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.list-item {
+    color: #000;
+    text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.copyright {
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7C7C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

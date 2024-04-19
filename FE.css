@@ -1,0 +1,305 @@
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #7C7C7C;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #A8763E;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: .5rem;
+    z-index: 1;
+}
+
+nav {
+    padding: 1.5rem;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+.title {
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #A8763E;
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+}
+
+ul li a:hover {
+    color: #A8763E;
+    transition: 1.2s;
+
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    width: 114.809px;
+    border-radius: 20px;
+    border: 3px solid #A8763E;
+    height: 38.333px;
+    background: #FFF;
+    justify-content: center;
+}
+
+.login a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #000;
+}
+
+.login:hover {
+    background-color: #A8763E;
+    transition: 1.2s;
+}
+
+/* Navbar */
+
+main {
+    margin: 2vw 5vw;
+    display: flex;
+    gap: 7vw;
+}
+
+#main-text {
+    width: 76vw;
+}
+
+main #main-text .boss {
+    color: #7C7C7C;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1vh;
+}
+
+main #main-text .main-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+
+main #main-text #span {
+    color: #A8763E;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main #main-text p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3vh 0;
+}
+
+main #main-text .inquiries {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* main text area  */
+
+/* share your Details*/
+
+main #form .shareyourdetails {
+    margin: 2vh 0;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main #form table .comman {
+    width: 250px;
+    height: 55px;
+    margin: 4vh 4vh 4vh;
+    border: 1px solid #000;
+    background: rgba(168, 118, 62, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #A8763E;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px;
+}
+
+main #form .form-control {
+    width: 570px;
+    height: 180px;
+    margin: 4vh 4vh 4vh;
+    border: 1px solid #000;
+    background: rgba(168, 118, 62, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #A8763E;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px;
+}
+
+
+
+#btn input[type=submit] {
+    position: relative;
+    padding: 1rem 3rem;
+    background-color: rgba(168, 118, 62, 0.50);
+    border: 1px solid black;
+    cursor: pointer;
+    right: -15vw;
+    border: rgba(168, 118, 62, 0.50);
+}
+
+#btn input[type=submit]:hover {
+    background-color: #FFF;
+    border: 2px solid #A8763E;
+    color: #A8763E;
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+    background: #D9D9D9;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo img {
+    width: 173px;
+    height: 176px;
+    position: relative;
+    object-fit: cover;
+    padding: 1rem;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.vl {
+    border-left: 2px solid black;
+}
+
+.footer-list {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#Socialicon li {
+    margin-top: 1rem;
+    display: inline-block;
+
+}
+
+.footer-list li {
+    margin-top: 5px
+}
+
+.title-footer {
+    color: #000;
+    text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.list-item {
+    color: #000;
+    text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.copyright {
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7C7C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
